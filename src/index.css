@@ -11,4 +11,5 @@
   margin: 0;
   font-family: 'Poppins', sans-serif;
   text-decoration: none;
+  scroll-behavior: smooth;
 }
