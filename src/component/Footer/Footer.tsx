@@ -3,7 +3,7 @@ function Footer() {
     <footer className="px-14 py-10">
       <div className="container">
         <div className="flex flex-col gap-4 items-center justify-center">
-          <ul className="flex gap-8">
+          <ul className="flex flex-col items-center justify-center gap-1 sm:flex-row sm:gap-8">
             <li className="group">
               <a
                 href="#home"
@@ -115,7 +115,7 @@ function Footer() {
                 </svg>
               </a>
             </div>
-        <p className="text-center text-xs font-medium text-slate-500 mt-16">
+        <p className="text-center text-xs font-medium text-slate-500 mt-12">
           &copy; Copyright 2023. Made by Mage
         </p>
       </div>
