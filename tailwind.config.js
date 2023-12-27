@@ -13,6 +13,17 @@ export default {
         white: '#EEEEEE',
       },
     },
+    screens: {
+      'sm': '640px',
+
+      'md': '882px',
+
+      'lg': '1024px',
+
+      'xl': '1216px',
+
+      '2xl': '1536px',
+    }
   },
   plugins: [],
 }
