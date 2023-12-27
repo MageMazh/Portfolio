@@ -1,6 +1,6 @@
 function About() {
   return (
-    <section id="about" className="px-14">
+    <section id="about" className="px-14 py-14">
       <div>
         <h2
           className="text-xs font-semibold uppercase tracking-widest text-gray-600 font-poppins
@@ -36,7 +36,7 @@ function About() {
               Let's be friends
             </p>
               Let's make friends or connect via social media
-            <div className="flex gap-2">
+            <div className="flex gap-3">
               <a
                 href="https://linkedin.com/in/marcellino-candyawan"
                 target="_blank"

@@ -29,7 +29,7 @@ function Hero() {
           <section className="absolute top-48 right-8 w-96 h-80 border-2 border-solid border-white rounded-lg box-border z-2"></section>
           <img
             className="relative z-3 w-[22rem] h-[32rem] bottom-8 left-56"
-            src="/profilepicture.png"
+            src="/profilepicture.webp"
             alt="profile"
           ></img>
         </main>
