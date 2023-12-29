@@ -9,7 +9,7 @@ function About() {
       </h2>
       <main className="grid md:grid-cols-2 gap-12">
         <section className="text-justify">
-          <p className="relative text-3xl font-bold uppercase font-poppins text-white mb-4">
+          <p className="relative text-3xl text-left font-bold uppercase font-poppins text-white mb-4">
             Learn More About <span className="text-blue-500">Me</span>
           </p>
           Hello, let me introduce myself, I'm Marcellino Candyawan, or rather
