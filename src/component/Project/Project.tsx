@@ -38,7 +38,7 @@ function Project() {
             <section className="border-2 border-solid border-gray-300 bg-cover bg-center w-[22rem] h-[20rem]">
               <img
                 className="object-cover border-b"
-                src={`/${projectname.title}.png`}
+                src={`/${projectname.title}.webp`}
                 alt={`Image ${index + 1}`}
               />
               <div className="flex flex-col gap-4">
