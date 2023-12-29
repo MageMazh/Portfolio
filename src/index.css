@@ -13,3 +13,7 @@
   text-decoration: none;
   scroll-behavior: smooth;
 }
+
+.hamburger-line {
+  @apply my-2 block h-[2px] w-[30px] bg-white;
+}
