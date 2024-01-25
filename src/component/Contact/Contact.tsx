@@ -16,12 +16,13 @@ function Contact() {
         className="flex flex-col md:flex-row gap-12 md:pb-14 dark:bg-slate-800"
       >
         <section className="w-full md:w-2/3">
-          <form>
+          <form action="https://formspree.io/f/mqkrebed" method="POST">
             <div className="mb-8 w-full">
               <label className="text-base font-bold text-primary">Nama</label>
               <input
                 type="text"
                 id="name"
+                name="name"
                 className="w-full rounded-md bg-slate-200 p-3 text-black focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"
               />
             </div>
@@ -30,13 +31,15 @@ function Contact() {
               <input
                 type="email"
                 id="email"
+                name="email"
                 className="w-full rounded-md bg-slate-200 p-3 text-black focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"
               />
             </div>
             <div className="mb-8 w-full">
               <label className="text-base font-bold text-primary">Pesan</label>
               <textarea
-                id="email"
+                id="message"
+                name="message"
                 className="h-32 w-full rounded-md bg-slate-200 p-3 text-black focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"
               ></textarea>
             </div>
